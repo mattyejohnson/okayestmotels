@@ -1,0 +1,82 @@
+@font-face {
+    font-family: WesternGrunge;
+    src: url("/WesternGrunge.ttf");
+  }
+  
+/* BEGIN MOTEL PAGE STYLES */
+.motel1bg {
+    background-image: url("motel1.png");
+    background-color: black;
+}
+
+.motelfooter {
+    width: 100%;
+}
+
+.motelCard {
+    width: 22rem;
+}
+
+ol.breadcrumb {
+    margin-left: 2em;
+}
+
+ol.breadcrumb a {
+    color: black;
+}
+
+.w-100 {
+    margin-top: 2em;
+  }
+
+@media screen and (max-width: 600px) {
+    .mobile {
+        margin-bottom: 2em;
+    }
+    
+    .motelCard {
+        margin-bottom: 3em;
+    }
+
+    .motelCard {
+        width: 26rem;
+    }
+  
+}
+/* END MOTEL PAGE STYLES */
+
+.table-success {
+    margin: 1em;
+}
+
+/* START ABOUT PAGE STYLES */
+.tires {
+    background-image: url("tracks2.png");
+}
+
+.tiresnav {
+    background-image: url("tracks.png");
+}
+
+.tiresdark {
+    background-image: url("tracks3.png");
+}
+
+@keyframes wheel-move {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(1080deg);}
+}
+
+/* START HOME PAGE STYLES */
+.wheel {
+display: block;
+  animation: wheel-move 4s;
+}
+
+.navfont {
+    font-family: WesternGrunge;
+}
+
+.text-beige {
+    color: #dbc7a9; 
+}
