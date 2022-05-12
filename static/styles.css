@@ -1,8 +1,21 @@
+/* FONTS */
 @font-face {
     font-family: WesternGrunge;
     src: url("/WesternGrunge.ttf");
   }
   
+/* END FONTS */
+
+/* BEGIN MULTI-PAGE STYLES */
+.navfont {
+    font-family: WesternGrunge;
+}
+
+.text-beige {
+    color: #dbc7a9; 
+}
+/* END MULTI-PAGE STYLES */
+
 /* BEGIN MOTEL PAGE STYLES */
 .catoosabg {
     background-image: url("catoosabg.png");
@@ -38,7 +51,7 @@ ol.breadcrumb a {
 
 .w-100 {
     margin-top: 2em;
-  }
+}
 
 @media screen and (max-width: 1200px) {
     .mobile {
@@ -60,11 +73,11 @@ ol.breadcrumb a {
 }
 /* END MOTEL PAGE STYLES */
 
+/* START ABOUT PAGE STYLES */
 .table-success {
     margin: 1em;
 }
 
-/* START ABOUT PAGE STYLES */
 .tires {
     background-image: url("tracks2.png");
 }
@@ -76,22 +89,16 @@ ol.breadcrumb a {
 .tiresdark {
     background-image: url("tracks3.png");
 }
+/* END ABOUT PAGE STYLES */
 
+/* START HOME PAGE STYLES */
 @keyframes wheel-move {
     from {transform:rotate(0deg);}
     to {transform:rotate(1080deg);}
 }
 
-/* START HOME PAGE STYLES */
 .wheel {
 display: block;
   animation: wheel-move 4s;
 }
-
-.navfont {
-    font-family: WesternGrunge;
-}
-
-.text-beige {
-    color: #dbc7a9; 
-}
+/* END HOME PAGE STYLES */
